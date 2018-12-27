@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 
-class HomePage extends Component {
+class WhoIAm extends Component {
     render() {
         return (
             <div>
-                <h1>Chuck DeRosier's Portfolio</h1>
+                <h1>Who I Am</h1>
             </div>
         )
     }
 }
 
-export default HomePage
+export default WhoIAm
