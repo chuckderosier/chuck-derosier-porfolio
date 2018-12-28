@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Routes, Switch, Route } from 'react-router-rom'
+import { BrowserRouter as Routes, Switch, Route } from 'react-router-dom'
 import HomePage from './components/HomePage'
 import WhatIDo from './components/WhatIDo'
 import WhoIAm from './components/WhoIAm'
@@ -8,8 +8,7 @@ import './App.css'
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <h1>Chuck DeRosier's Portfolio</h1>
+      <div>
         <Routes>
           <Switch>
             <Route exact path='/whatido' component={WhatIDo} />
