@@ -10,17 +10,26 @@ const HomePageStyle = styled.div`
     width: 100vw;
     height: 100vh;
     display: flex;
-    justify-content: center;
-    h1 {
-        text-align: center;
-        font-size: 2.5em;
-        padding: .5em;
-        background-color: rgba(0,0,0,.2);
-        border-radius: 25em;
+    flex-direction: column;
+    align-items: center;
+    
+`
+
+const PanelStyle = styled.div`
+    display: flex;
+    .left-panel {
+        width: 50vw;
+        height: 30vh;     
     }
-    .title {
-        width: 40vw;
-        height: 15vh;
+    .left-panel:hover { 
+        background-color: rgba(50,0,25,.3);
+    }
+    .right-panel {
+        width: 50vw;
+        height: 30vh;
+    }
+    .right-panel:hover {
+        background-color: rgba(0,25,50,.3);
     }
 `
 
@@ -29,9 +38,11 @@ class HomePage extends Component {
         return (
             <div>
                 <HomePageStyle>
-                    <div className="title">
-                        <h1>Chuck DeRosier's Portfolio</h1>
-                    </div>
+                    
+                    <PanelStyle>
+                        <div className="left-panel"></div>
+                        <div className="right-panel"></div>
+                    </PanelStyle>
                 </HomePageStyle>
             </div>
         )
