@@ -20,34 +20,18 @@ const PanelStyle = styled.div`
     .panel-content {
         color: rgba(0,0,0,0)
     }
-    .left-panel {
+    .panels {
         width: 50vw;
         height: 100vh;     
     }
-    .left-panel:hover {
-        background-color: rgba(50,0,25,.3);
+    .panels:hover {
+        background-color: rgba(25,0,50,.3);
         .panel-content {
-        color: rgba(0,0,255,1);
+        color: rgba(255,255,0,1);
         text-decoration: none;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-around;
-    }
-    }
-    .right-panel {
-        width: 50vw;
-        height: 100vh;
-    }
-    .right-panel:hover {
-        background-color: rgba(0,25,50,.3);
-        .panel-content {
-        color: rgba(0,0,255,1);
-        text-decoration: none;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
     }
     }
 `
@@ -59,7 +43,7 @@ class HomePage extends Component {
                 <HomePageStyle>
 
                     <PanelStyle>
-                        <div className="left-panel">
+                        <div className="panels">
                             <Link to="/whatido" className="panel-content">
                                 <h1>What I do</h1>
                                 <h3>React</h3>
@@ -70,7 +54,7 @@ class HomePage extends Component {
                                 <h3>Node.js</h3>
                             </Link>
                         </div>
-                        <div className="right-panel">
+                        <div className="panels">
                             <Link to="/whoiam" className="panel-content">
                                 <h1>Who I Am</h1>
                                 <h3>Camping</h3>
