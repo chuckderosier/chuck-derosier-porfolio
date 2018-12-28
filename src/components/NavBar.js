@@ -9,22 +9,21 @@ const NavBarStyle = styled.div`
     display: flex;
     justify-content: space-around;
     align-items: center;
-    h1 {
-        /* text-align: center; */
-        /* font-size: 2em;
-        padding: .1em .5em;
-        background-color: rgba(255,255,255,.2);
-        border-radius: 25em; */
-    }
     .link {
         color: rgba(255,255,255,1);
         text-align: center;
         text-decoration: none;
-        font-size: 1em;
-        background-color: rgba(255,255,255,.2);
-        padding: .1em .5em;
-        border-radius: 25em;
-        /* padding: .3em 2em; */
+        h1, h3 {
+            background-color: rgba(255,255,255,.2);
+            padding: .1em .5em;
+            border-radius: 25em;
+        }
+        h1 {
+            font-size: 2em;
+        }
+        h3 {
+            font-size: 1.5em;
+        }
     }
 `
 
@@ -34,7 +33,7 @@ class NavBar extends Component {
             <NavBarStyle>
                 <div>
                     <Link to="/whatido" className="link">
-                    <h3>What I Do</h3>
+                        <h3>What I Do</h3>
                     </Link>
                 </div>
                 <div>
@@ -44,7 +43,7 @@ class NavBar extends Component {
                 </div>
                 <div>
                     <Link to="/whoiam" className="link">
-                    <h3>Who I Am</h3>
+                        <h3>Who I Am</h3>
                     </Link>
                 </div>
             </NavBarStyle>
