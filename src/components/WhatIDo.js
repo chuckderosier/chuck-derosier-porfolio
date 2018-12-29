@@ -6,6 +6,8 @@ const WhatIDoStyle = styled.div`
     width: 100vw;
     height: 100vh;
     background-color: rgba(30,0,30,1);
+    display: flex;
+    justify-content: space-around;
     h1 {
         color: rgba(255,200,0,1);
         text-align: center;
