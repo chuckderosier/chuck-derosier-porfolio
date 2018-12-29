@@ -23,6 +23,7 @@ class WhatIDo extends Component {
                 <div>
                     <Link to="https://happy-camper-by-chuck.herokuapp.com/">
                         <h3>Happy Camper</h3>
+                        <img src="https://i.imgur.com/4sUgKV4.png?1" />
                         <p>MongoDB, Express, React, Node.js</p>
                         <p>At this moment I am trying to resolve why the heroku app doe not update</p>
                     </Link>
