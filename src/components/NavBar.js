@@ -14,7 +14,7 @@ const NavBarStyle = styled.div`
         text-align: center;
         text-decoration: none;
         h1, h3 {
-            background-color: rgba(255,255,255,.2);
+            background-color: rgba(255,100,255,.3);
             padding: .1em .5em;
             border-radius: 25em;
         }
