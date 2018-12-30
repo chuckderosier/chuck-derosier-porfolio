@@ -5,16 +5,16 @@ import { Link } from 'react-router-dom'
 const NavBarStyle = styled.div`
     width: 100vw;
     height: 3.5em;
-    background-color: rgba(0,0,0,1);
+    background-color: rgba(255,200,0,1);
     display: flex;
     justify-content: space-around;
     align-items: center;
     .link {
-        color: rgba(255,255,255,1);
         text-align: center;
         text-decoration: none;
         h1, h3 {
-            background-color: rgba(255,100,255,.3);
+            color: rgba(255,255,100,1);
+            background-color: rgba(75,0,75,1);
             padding: .1em .5em;
             border-radius: 25em;
         }

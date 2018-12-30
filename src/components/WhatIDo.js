@@ -9,6 +9,9 @@ const WhatIDoStyle = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    h1 {
+        color: rgba(255,255,100,1);
+    }
     .app-container {
         display: flex;
         justify-items: center;
