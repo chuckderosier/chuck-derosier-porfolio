@@ -14,21 +14,29 @@ const WhatIDoStyle = styled.div`
     }
     .app-container {
         display: flex;
-        justify-items: center;
+        justify-content: space-around;
     }
     .app {
+        background-color: rgba(255,255,255,.1);
         width: 40vw;
+        margin: 0 1em;
+        padding: .5em;
+        border-radius: 2em;
     }
     .app-link {
         color: rgba(255,255,100,1);
         text-decoration: none;
-        width: 26em;
+        /* width: 26em; */
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+    a {
+        display: flex;
+        flex-direction: column;
+    }
     img {
-        width: 36vw;
+        width: 38vw;
     }
 `
 
@@ -56,8 +64,8 @@ class WhatIDo extends Component {
                         </a>
                         <a href="https://github.com/chuckderosier/jonny_on_it_collab.git" className="app-link">gitHub repo</a>
                     </div>
-                    <div></div>
-                    <div></div>
+                    {/* <div><h1>x</h1></div>
+                    <div><h1>y</h1></div> */}
                 </div>
             </WhatIDoStyle>
         )
