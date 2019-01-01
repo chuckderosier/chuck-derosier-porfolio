@@ -14,11 +14,17 @@ const WhoIAmStyle = styled.div`
     .who-i-am-container {
         margin: .5em;
         display: flex;
-        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
     }
-    /* .top-hobbies {
-        margin: -5em;
-    } */
+    .top-hobbies {
+        margin: 0 0 0 -20em;
+        display: flex;
+    }
+    .bottom-hobbies {
+        margin: 0 -20em 0 0;
+        display: flex;
+    }
     .hobby-link {
         color: rgba(255,200,0,1);
         font-size: 1.5em;
@@ -28,6 +34,7 @@ const WhoIAmStyle = styled.div`
     .camping {
             width: 10em;
             height: 10em;
+            margin: 0 15em 0 0;
             background-image: url("https://i.imgur.com/AdmRMmL.png");
             background-position: center;
             background-size: contain;
@@ -50,7 +57,6 @@ const WhoIAmStyle = styled.div`
     .gaming {
             width: 10em;
             height: 10em;
-            margin: 1em auto;
             background-image: url("https://i.imgur.com/42sWW02.png");
             background-position: center;
             background-size: contain;
@@ -62,7 +68,7 @@ const WhoIAmStyle = styled.div`
     .books {
             width: 10em;
             height: 10em;
-            margin: 1em auto;
+            margin: 0 0 0 15em;
             background-image: url("https://i.imgur.com/Hmn2mJs.png");
             background-position: center;
             background-size: contain;
@@ -85,16 +91,16 @@ class WhoIAm extends Component {
                                 <h2>Camping</h2>
                             </div>
                         </Link>
-                        <Link to="/gaming" className="hobby-link">
-                            <div className="gaming">
-                                <h2>Gaming</h2>
+                        <Link to="/music" className="hobby-link">
+                            <div className="music">
+                                <h2>Music</h2>
                             </div>
                         </Link>
                     </div>
                     <div className="bottom-hobbies">
-                        <Link to="/music" className="hobby-link">
-                            <div className="music">
-                                <h2>Music</h2>
+                        <Link to="/gaming" className="hobby-link">
+                            <div className="gaming">
+                                <h2>Gaming</h2>
                             </div>
                         </Link>
                         <Link to="/books" className="hobby-link">
