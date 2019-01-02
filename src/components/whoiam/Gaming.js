@@ -1,11 +1,16 @@
 import React, { Component } from 'react'
+import styled from 'styled-components'
+
+const GamingStyle = styled.div`
+    margin: 0 auto;
+`
 
 class Gaming extends Component {
     render() {
         return (
-            <div>
+            <GamingStyle>
                 <h1>Gaming</h1>
-            </div>
+            </GamingStyle>
         )
     }
 }
