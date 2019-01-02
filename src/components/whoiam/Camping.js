@@ -1,12 +1,34 @@
 import React, { Component } from 'react'
+import styled from 'styled-components'
+
+const CampStyle = styled.div`
+    background-color: rgba(100,15,15,1);
+    color: rgba(255,255,0,1);
+    font-size: 1.2em;
+    text-align: center;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p {
+        font-size: 1em;
+    }
+    .camp-title {
+        width: 80vw;
+        
+        h1 {
+            margin: 0 auto;
+        }
+    }
+`
 
 class Camping extends Component {
     render() {
         return (
-            <div>
-                <div>
+            <CampStyle>
+                <div className="camp-title">
                     <h1>Camping</h1>
-                    <p>I enjoy camping in the woods and sometimes at State and Federal parks. When I camp in the forest it is in North Georgia at one of several sites but I am partial to two of them and I also have 2 campsites I like. I will show you these below.</p>
+                    <p>I enjoy camping in the woods and sometimes at State and Federal parks. When I camp in the forest it is in North Georgia at one of several sites but I am partial to two of them and I also have 2 state park campsites I like. I will show you these below. As a group we tend to bring some comfort like folding tables and inflatable mattresses but we tend away from bringing too much of the outside world with us.</p>
                 </div>
                 <div className="camp1">
                     <h2>Camp 1.0 (how we refer to it)</h2>
@@ -22,7 +44,7 @@ class Camping extends Component {
                 </div>
                 <div className="port-st-joe">
                     <h2>Port St. Joseph</h2>
-                    <p>Port St Joe is a state park located on the Florida panhandle. It has miles of empty white sand beaches on the Gulf of Mexico and a lagoon on the bay side. There is wildlife to be found here, most commonly armadillos and deer, but occasionally you will see dolphins, alligators, manta rays, foxes, pelicans and more.</p>
+                    <p>This part is sadly closed due to hurricane Michael. Port St Joe is a state park located on the Florida panhandle. It has miles of empty white sand beaches on the Gulf of Mexico and a lagoon on the bay side. There is wildlife to be found here, most commonly armadillos and deer, but occasionally you will see dolphins, alligators, manta rays, foxes, pelicans and more.</p>
                     <img src="https://i.imgur.com/V4Am0EY.png" />
                     <img src="https://i.imgur.com/8ncFNSq.png" />
                     <img src="https://i.imgur.com/YkGKsyg.png" />
@@ -33,7 +55,7 @@ class Camping extends Component {
                     <img src="https://i.imgur.com/U9b9JVG.png" />
                     <img src="https://i.imgur.com/T6jMhEL.jpg" />
                 </div>
-            </div>
+            </CampStyle>
         )
     }
 }

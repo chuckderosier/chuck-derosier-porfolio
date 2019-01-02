@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const NavBarStyle = styled.div`
     width: 100vw;
-    height: 3.5em;
+    height: 3.7em;
     background-color: rgba(255,200,0,1);
     display: flex;
     justify-content: space-around;
