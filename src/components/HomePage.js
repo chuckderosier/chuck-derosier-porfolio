@@ -12,7 +12,14 @@ const HomePageStyle = styled.div`
     height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    p {
+        font-size: 1.4em;
+        text-align: center;
+        position: absolute;
+        z-index: 1;
+        width: 80vw;
+        margin: 1em 0 0 6em;
+    }
 `
 
 const PanelStyle = styled.div`
@@ -22,12 +29,14 @@ const PanelStyle = styled.div`
     }
     .panels {
         width: 50vw;
-        height: 100vh;     
+        height: 100vh;
+        z-index: 2;   
     }
     .panels:hover {
         background-color: rgba(25,0,50,.3);
         .panel-content {
         color: rgba(255,255,0,1);
+        font-size: 1.3em;
         text-decoration: none;
         display: flex;
         flex-direction: column;
@@ -43,6 +52,7 @@ class HomePage extends Component {
                 <HomePageStyle>
 
                     <PanelStyle>
+                        <p>I bring to my web development skill set 20 years of experience organizing complex data and ideas for clients, and based on their requirements, creatively resolve the materials, with a strong focus on details, into a meaningful, responsive, quality product. I enjoy exploring the range of possibilities in creating a new product and sharing these ideas with the client to help them best define their product.</p>
                         <div className="panels">
                             <Link to="/whatido" className="panel-content">
                                 <h1>What I do</h1>

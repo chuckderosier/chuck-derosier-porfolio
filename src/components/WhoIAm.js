@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 
 const WhoIAmStyle = styled.div`
     width: 100vw;
+    padding: 0 0 2em 0;
     background-color: black;
     color: white;
     font-size: 1em;

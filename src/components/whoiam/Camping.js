@@ -7,6 +7,7 @@ const CampStyle = styled.div`
     font-size: 1.2em;
     text-align: center;
     width: 100vw;
+    padding: 0 0 2em 0;
     display: flex;
     flex-direction: column;
     align-items: center;
