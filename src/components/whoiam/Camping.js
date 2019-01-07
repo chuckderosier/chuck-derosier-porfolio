@@ -13,13 +13,19 @@ const CampStyle = styled.div`
     align-items: center;
     p {
         font-size: 1em;
+        width: 80vw;
     }
     .camp-title {
-        width: 80vw;
-        
+        width: 80vw; 
         h1 {
             margin: 0 auto;
+            padding: .5em;
         }
+    }
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 `
 
