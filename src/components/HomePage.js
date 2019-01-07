@@ -12,13 +12,13 @@ const HomePageStyle = styled.div`
     height: 100vh;
     display: flex;
     flex-direction: column;
+    align-items: center;
     p {
         font-size: 1.4em;
         text-align: center;
         position: absolute;
         z-index: 1;
         width: 80vw;
-        margin: 1em 0 0 6em;
     }
 `
 
@@ -50,9 +50,10 @@ class HomePage extends Component {
         return (
             <div>
                 <HomePageStyle>
-
+                    <p>"I bring to my web development skill set 20 years of experience organizing complex data and ideas for clients, and based on their requirements, creatively resolve the materials, with a strong focus on details, into a meaningful, responsive, quality product. I enjoy exploring the range of possibilities in creating a new product and sharing these ideas with the client to help them best define their product."<br /><br />
+                    Email: chuck.derosier2018@gmail.com * LinkedIn: www.linkedin.com/in/charles-derosier<br />
+                    GitHub: https://github.com/chuckderosier</p>
                     <PanelStyle>
-                        <p>I bring to my web development skill set 20 years of experience organizing complex data and ideas for clients, and based on their requirements, creatively resolve the materials, with a strong focus on details, into a meaningful, responsive, quality product. I enjoy exploring the range of possibilities in creating a new product and sharing these ideas with the client to help them best define their product.</p>
                         <div className="panels">
                             <Link to="/whatido" className="panel-content">
                                 <h1>What I do</h1>
