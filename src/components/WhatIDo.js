@@ -53,7 +53,7 @@ class WhatIDo extends Component {
                             <p>MongoDB, Express, React, Node.js</p>
                             <p>At this moment I am trying to resolve why the heroku app doe not update</p>
                         </a>
-                        <a href="https://github.com/chuckderosier/Happy-Camper.git" className="app-link">gitHub repo</a>
+                        <a href="https://github.com/chuckderosier/Happy-Camper.git" className="app-link">gitHub repo link</a>
                     </div>
                     <div className="app">
                         <a href="https://jonny-on-it-collab.herokuapp.com/" className="app-link">
@@ -62,7 +62,7 @@ class WhatIDo extends Component {
                             <p>Django, Python, React, Node.js</p>
                             <p>This project was created by a 4 person coding team. See README on gitHub for the names of the other coders</p>
                         </a>
-                        <a href="https://github.com/chuckderosier/jonny_on_it_collab.git" className="app-link">gitHub repo</a>
+                        <a href="https://github.com/chuckderosier/jonny_on_it_collab.git" className="app-link">gitHub repo link</a>
                     </div>
                     {/* <div><h1>x</h1></div>
                     <div><h1>y</h1></div> */}
