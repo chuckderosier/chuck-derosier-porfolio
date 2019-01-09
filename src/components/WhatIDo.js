@@ -1,10 +1,9 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
-import { Link, Redirect } from "react-router-dom"
+import { Link } from "react-router-dom"
 
 const WhatIDoStyle = styled.div`
     width: 100vw;
-    height: 100vh;
     background-color: rgba(40,0,40,1);
     display: flex;
     flex-direction: column;
@@ -13,6 +12,7 @@ const WhatIDoStyle = styled.div`
         color: rgba(255,255,100,1);
     }
     .app-container {
+        margin: 0 0 1.5em 0;
         display: flex;
         justify-content: space-around;
     }
@@ -26,17 +26,28 @@ const WhatIDoStyle = styled.div`
     .app-link {
         color: rgba(255,255,100,1);
         text-decoration: none;
-        /* width: 26em; */
         display: flex;
         flex-direction: column;
         align-items: center;
     }
     a {
+        /* padding: 0 0 .5em 0; */
         display: flex;
         flex-direction: column;
     }
     img {
         width: 38vw;
+    }
+    .examples {
+        background-color: rgba(255,255,255,.1);
+        text-decoration: none;
+        width: 40vw;
+        margin: 0 1em;
+        padding: .5em;
+        border-radius: 2em;
+        .app-link {
+            color: rgba(255,255,255,1);
+        }
     }
 `
 
@@ -64,8 +75,14 @@ class WhatIDo extends Component {
                         </a>
                         <a href="https://github.com/chuckderosier/jonny_on_it_collab.git" className="app-link">gitHub repo link</a>
                     </div>
-                    {/* <div><h1>x</h1></div>
-                    <div><h1>y</h1></div> */}
+                </div>
+                <div className="app-container">
+                    <div className="examples">
+                        <Link to="photoshop" className="app-link">PHOTOSHOP EXAMPLES</Link>
+                    </div>
+                    <div className="examples">
+                        <Link to="graphic" className="app-link">GRAPHIC EXAMPLES</Link>
+                    </div>
                 </div>
             </WhatIDoStyle>
         )
