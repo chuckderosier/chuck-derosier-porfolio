@@ -47,6 +47,7 @@ const WhatIDoStyle = styled.div`
         border-radius: 2em;
         .app-link {
             color: rgba(255,255,255,1);
+            font-size: 1.5em;
         }
     }
 `
@@ -60,7 +61,7 @@ class WhatIDo extends Component {
                     <div className="app">
                         <a href="https://happy-camper-by-chuck.herokuapp.com/" className="app-link">
                             <h3>Happy Camper</h3>
-                            <img src="https://i.imgur.com/4sUgKV4.png?1" />
+                            <img src="https://i.imgur.com/4sUgKV4.png?1" alt="happy camper app" />
                             <p>MongoDB, Express, React, Node.js</p>
                             <p>At this moment I am trying to resolve why the heroku app doe not update</p>
                         </a>
@@ -69,7 +70,7 @@ class WhatIDo extends Component {
                     <div className="app">
                         <a href="https://jonny-on-it-collab.herokuapp.com/" className="app-link">
                             <h3>Jonny On It</h3>
-                            <img src="https://i.imgur.com/2dANYg5.png" />
+                            <img src="https://i.imgur.com/2dANYg5.png" alt="jonnyonit app" />
                             <p>Django, Python, React, Node.js</p>
                             <p>This project was created by a 4 person coding team. See README on gitHub for the names of the other coders</p>
                         </a>
