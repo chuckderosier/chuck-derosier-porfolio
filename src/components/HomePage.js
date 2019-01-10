@@ -13,12 +13,17 @@ const HomePageStyle = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    p {
-        font-size: 1.4em;
-        text-align: center;
+    .brand-statement {
+        background-color: rgba(255,255,255,.2);
+        border-radius: 1.5em;
+        margin: 1em auto;
         position: absolute;
         z-index: 1;
+        p {
+        font-size: 1.4em;
+        text-align: center;
         width: 80vw;
+    }
     }
 `
 
@@ -50,7 +55,9 @@ class HomePage extends Component {
         return (
             <div>
                 <HomePageStyle>
-                    <p>"I bring to my web development skill set 20 years of experience organizing complex data and ideas for clients, and based on their requirements, creatively resolve the materials, with a strong focus on details, into a meaningful, responsive, quality product. I enjoy exploring the range of possibilities in creating a new product and sharing these ideas with the client to help them best define their product."</p>
+                    <div className="brand-statement">
+                        <p>"I bring to my web development skill set 20 years of experience organizing complex data and ideas for clients, and based on their requirements, creatively resolve the materials, with a strong focus on details, into a meaningful, responsive, quality product. I enjoy exploring the range of possibilities in creating a new product and sharing these ideas with the client to help them best define their product."</p>
+                    </div>
                     <PanelStyle>
                         <div className="panels">
                             <Link to="/whatido" className="panel-content">
