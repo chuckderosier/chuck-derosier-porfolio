@@ -22,6 +22,9 @@ const WhatIDoStyle = styled.div`
         margin: 0 1em;
         padding: .5em;
         border-radius: 2em;
+        h1 {
+            text-align: center;
+        }
     }
     .app-link {
         color: rgba(255,255,100,1);
@@ -59,6 +62,9 @@ class WhatIDo extends Component {
                 <h1>What I Do</h1>
                 <div className="app-container">
                     <div className="app">
+                        <h1>Placeholder for app that has stoped working on Heroku</h1>
+                    </div>
+                    {/* <div className="app">
                         <a href="https://happy-camper-by-chuck.herokuapp.com/" className="app-link">
                             <h3>Happy Camper</h3>
                             <img src="https://i.imgur.com/4sUgKV4.png?1" alt="happy camper app" />
@@ -66,7 +72,7 @@ class WhatIDo extends Component {
                             <p>At this moment I am trying to resolve why the heroku app doe not update</p>
                         </a>
                         <a href="https://github.com/chuckderosier/Happy-Camper.git" className="app-link">gitHub repo link</a>
-                    </div>
+                    </div> */}
                     <div className="app">
                         <a href="https://jonny-on-it-collab.herokuapp.com/" className="app-link">
                             <h3>Jonny On It</h3>
