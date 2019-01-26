@@ -3,14 +3,12 @@ import styled from 'styled-components'
 import { Link } from "react-router-dom"
 
 const WhatIDoStyle = styled.div`
+    color: rgba(255,255,100,1);
     width: 100vw;
     background-color: rgba(40,0,40,1);
     display: flex;
     flex-direction: column;
     align-items: center;
-    h1 {
-        color: rgba(255,255,100,1);
-    }
     .app-container {
         margin: 0 0 1.5em 0;
         display: flex;
@@ -26,13 +24,11 @@ const WhatIDoStyle = styled.div`
             text-align: center;
         }
         h2 {
-            color: rgba(255,255,100,1);
             text-align: center;
             margin: 0 auto;
         }
         ul {
             list-style-type: none;
-            color: rgba(255,255,100,1);
             text-align: center;
             font-size: 1.6em;
             margin: 0 auto;
@@ -43,6 +39,7 @@ const WhatIDoStyle = styled.div`
     }
     .app-link {
         color: rgba(255,255,100,1);
+        text-align: center;
         text-decoration: none;
         display: flex;
         flex-direction: column;
@@ -64,7 +61,6 @@ const WhatIDoStyle = styled.div`
         padding: .5em;
         border-radius: 2em;
         .app-link {
-            color: rgba(255,255,255,1);
             font-size: 1.5em;
         }
     }
@@ -75,6 +71,7 @@ class WhatIDo extends Component {
         return (
             <WhatIDoStyle>
                 <h1>What I Do</h1>
+                <p>CSS on this page uses Flex</p>
                 <div className="app-container">
                     <div className="app">
                         <h1>Placeholder for app that has stopped working on Heroku</h1>
