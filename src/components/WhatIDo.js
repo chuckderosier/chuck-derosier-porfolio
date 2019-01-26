@@ -25,6 +25,21 @@ const WhatIDoStyle = styled.div`
         h1 {
             text-align: center;
         }
+        h2 {
+            color: rgba(255,255,100,1);
+            text-align: center;
+            margin: 0 auto;
+        }
+        ul {
+            list-style-type: none;
+            color: rgba(255,255,100,1);
+            text-align: center;
+            font-size: 1.6em;
+            margin: 0 auto;
+            li {
+                margin: .2em;
+            }
+        }
     }
     .app-link {
         color: rgba(255,255,100,1);
@@ -62,7 +77,15 @@ class WhatIDo extends Component {
                 <h1>What I Do</h1>
                 <div className="app-container">
                     <div className="app">
-                        <h1>Placeholder for app that has stoped working on Heroku</h1>
+                        <h1>Placeholder for app that has stopped working on Heroku</h1>
+                        <h2>Technologies I know:</h2>
+                        <ul>
+                            <li>React</li>
+                            <li>Python, Django</li>
+                            <li>Express, Node.js</li>
+                            <li>JavaScript, jQuery</li>
+                            <li>HTML, CSS</li>
+                        </ul>
                     </div>
                     {/* <div className="app">
                         <a href="https://happy-camper-by-chuck.herokuapp.com/" className="app-link">
