@@ -13,6 +13,10 @@ const MusicStyle = styled.div`
         margin: 0 auto;
         padding: .5em 0 0 0;
     }
+    li {
+        background-color: rgba(40,40,40,1);
+        margin: .1em;
+    }
     p {
         font-size: 1.2em;
         width: 70vw;
