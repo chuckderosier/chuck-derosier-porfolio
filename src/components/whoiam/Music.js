@@ -2,8 +2,9 @@ import React, { Component } from 'react'
 import styled from 'styled-components'
 
 const MusicStyle = styled.div`
-    background-color: rgba(0,0,0,1);
+    background-color: rgba(40,0,40,1);
     color: rgba(255,255,0,1);
+    padding: 3em;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -14,9 +15,10 @@ const MusicStyle = styled.div`
         padding: .5em 0 0 0;
     }
     .eachBand {
-        background-color: rgba(40,40,40,1);
-        margin: .1em;
-        width: 20em;
+        background-color: rgba(255,255,255,.1);
+        border-radius: .5em;
+        padding: .2em;
+        margin: .3em;
     }
     h4, p, a {
         margin: .5em;
@@ -24,7 +26,7 @@ const MusicStyle = styled.div`
     }
     p {
         font-size: 1.2em;
-        width: 70vw;
+        /* width: 70vw; */
     }
     a {
         color: rgba(255,255,0,1);
