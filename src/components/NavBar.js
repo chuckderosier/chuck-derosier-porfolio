@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom'
 const NavBarStyle = styled.div`
     width: 100vw;
     background-color: rgba(255,200,0,1);
+    padding: .3em;
     display: flex;
     flex-direction: column;
     align-items: center;
