@@ -4,6 +4,7 @@ import styled from 'styled-components'
 const MusicStyle = styled.div`
     background-color: rgba(40,0,40,1);
     color: rgba(255,255,0,1);
+    text-align: center;
     padding: 3em;
     width: 100vw;
     display: flex;
@@ -26,7 +27,6 @@ const MusicStyle = styled.div`
     }
     p {
         font-size: 1.2em;
-        /* width: 70vw; */
     }
     a {
         color: rgba(255,255,0,1);
