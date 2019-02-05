@@ -46,7 +46,6 @@ class Gaming extends Component {
                     <h3>For more information on these games and links to purchase click link below:</h3>
                     <a href="https://www.pangenre.com/">Pangenre, LLC</a>
                 </div>
-                <h1></h1>
             </GamingStyle>
         )
     }
