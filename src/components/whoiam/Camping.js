@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
-import tentIcon from "./Tent-icon.png"
 
 const CampStyle = styled.div`
     background-color: rgba(100,15,15,1);
@@ -63,7 +62,6 @@ class Camping extends Component {
                     <img src="https://i.imgur.com/U9b9JVG.png" alt="view from rim" />
                     <img src="https://i.imgur.com/T6jMhEL.jpg" alt="waterfall" />
                 </div>
-                <img src={tentIcon} alt="Tent Icon" />
             </CampStyle>
         )
     }
