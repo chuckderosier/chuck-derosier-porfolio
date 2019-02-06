@@ -26,7 +26,7 @@ const MusicStyle = styled.div`
         border-radius: .5em;
         width: 25vw;
         padding: .2em;
-        margin: .3em;
+        margin: 1em;
     }
     h4, p, a {
         margin: .5em;
@@ -79,7 +79,7 @@ class Music extends Component {
                         <div className="eachBand">
                             <h4>Johnny Knox and The Hi Test</h4>
                             <p>Rockabilly</p>
-                            <a>No longer playing</a>
+                            <p>No longer playing</p>
                             <a href="https://www.youtube.com/watch?v=SAVhiwSZk2w">Check This Action</a>
                             <a href="https://www.youtube.com/watch?v=mW6Hha5rU_0">Swingin' Hula Girl</a>
                         </div>
@@ -137,7 +137,7 @@ class Music extends Component {
                         <div className="eachBand">
                             <h4>Wishbone Ash</h4>
                             <p>Progressive Rock</p>
-                            <a>No longer playing</a>
+                            <p>No longer playing</p>
                             <a href="https://www.youtube.com/watch?v=QkvcM0JadEY">The King Will Come</a>
                             <a href="https://www.youtube.com/watch?v=mUolWNHxRiM">Blowing Free</a>
                             <a href="https://www.youtube.com/watch?v=U5X_Dd_6Czk">Warrior</a>
