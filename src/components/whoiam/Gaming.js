@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import styled from 'styled-components'
 
 const GamingStyle = styled.div`
-    background-color: rgba(0,0,0,1);
+    background-color: rgba(40,0,40,1);
     color: rgba(255,255,0,1);
     display: flex;
     flex-direction: column;

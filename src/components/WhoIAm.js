@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 const WhoIAmStyle = styled.div`
     width: 100vw;
     padding: 0 0 2em 0;
-    background-color: black;
+    background-color: rgba(40,0,40,1);
     color: white;
     font-size: 1em;
     text-align: center;
@@ -17,12 +17,22 @@ const WhoIAmStyle = styled.div`
         flex-direction: column;
         align-items: center;
     }
+    h1 {
+        color: rgba(255,200,0,1);
+        font-size: 2.4em;
+        margin: .4em auto 0 auto;
+    }
+    p {
+        color: rgba(255,200,0,1);
+        font-size: 1em;
+        margin: .2em auto 1em auto;
+    }
     .top-hobbies {
         margin: 0 0 0 -20em;
         display: flex;
     }
     .bottom-hobbies {
-        margin: 0 -20em 0 0;
+        margin: -1em -20em 0 0;
         display: flex;
     }
     .hobby-link {
@@ -84,6 +94,7 @@ class WhoIAm extends Component {
         return (
             <WhoIAmStyle>
                 <h1>Who I Am</h1>
+                <p>This page bought to you by CSS Flex</p>
                 <div className="who-i-am-container">
                     <div className="top-hobbies">
                         <Link to="/camping" className="hobby-link">
