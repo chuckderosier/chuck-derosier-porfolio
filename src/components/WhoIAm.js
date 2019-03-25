@@ -7,7 +7,6 @@ const WhoIAmStyle = styled.div`
     padding: 0 0 2em 0;
     background-color: rgba(40,0,40,1);
     color: white;
-    font-size: 1em;
     text-align: center;
     display: flex;
     flex-direction: column;

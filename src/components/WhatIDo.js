@@ -14,6 +14,16 @@ const WhatIDoStyle = styled.div`
         display: flex;
         justify-content: space-around;
     }
+    h1 {
+        color: rgba(255,200,0,1);
+        font-size: 2.4em;
+        margin: .4em auto 0 auto;
+    }
+    p {
+        color: rgba(255,200,0,1);
+        font-size: 1em;
+        margin: .2em auto 1em auto;
+    }
     .app {
         background-color: rgba(255,255,255,.1);
         width: 40vw;
@@ -36,6 +46,9 @@ const WhatIDoStyle = styled.div`
                 margin: .2em;
             }
         }
+        p{
+            margin: .4em;
+        }
     }
     .app-link {
         color: rgba(255,255,100,1);
@@ -51,7 +64,7 @@ const WhatIDoStyle = styled.div`
         flex-direction: column;
     }
     img {
-        width: 38vw;
+        width: 35vw;
     }
     .examples {
         background-color: rgba(255,255,255,.1);
