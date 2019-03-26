@@ -77,7 +77,6 @@ class HomePage extends Component {
                                 <h3>Strategy Board Games</h3>
                                 <h3>Music</h3>
                                 <h3>Books</h3>
-                                <h3>Video</h3>
                             </Link>
                         </div>
                     </PanelStyle>
