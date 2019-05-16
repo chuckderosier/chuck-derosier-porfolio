@@ -10,6 +10,7 @@ import Gaming from './components/whoiam/Gaming'
 import Books from './components/whoiam/Books'
 import Photoshop from './components/whatido/Photoshop'
 import Graphic from './components/whatido/Graphic'
+import Mixed from './components/whatido/Mixed'
 // import './App.css'
 
 class App extends Component {
@@ -20,8 +21,9 @@ class App extends Component {
           <div>
             <NavBar />
             <Switch>
-              <Route exact path="/graphic" component={Graphic} />
-              <Route exact path="/photoshop" component={Photoshop} />
+              <Route exact path='/mixed' component={Mixed} />
+              <Route exact path='/graphic' component={Graphic} />
+              <Route exact path='/photoshop' component={Photoshop} />
               <Route exact path='/books' component={Books} />
               <Route exact path='/gaming' component={Gaming} />
               <Route exact path='/music' component={Music} />

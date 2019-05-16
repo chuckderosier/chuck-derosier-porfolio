@@ -87,26 +87,6 @@ class WhatIDo extends Component {
                 <p>CSS on this page uses Flex</p>
                 <div className="app-container">
                     <div className="app">
-                        <h1>Placeholder for app that has stopped working on Heroku</h1>
-                        <h2>Technologies I know:</h2>
-                        <ul>
-                            <li>React</li>
-                            <li>Python, Django</li>
-                            <li>Express, Node.js</li>
-                            <li>JavaScript, jQuery</li>
-                            <li>HTML, CSS</li>
-                        </ul>
-                    </div>
-                    {/* <div className="app">
-                        <a href="https://happy-camper-by-chuck.herokuapp.com/" className="app-link">
-                            <h3>Happy Camper</h3>
-                            <img src="https://i.imgur.com/4sUgKV4.png?1" alt="happy camper app" />
-                            <p>MongoDB, Express, React, Node.js</p>
-                            <p>At this moment I am trying to resolve why the heroku app doe not update</p>
-                        </a>
-                        <a href="https://github.com/chuckderosier/Happy-Camper.git" className="app-link">gitHub repo link</a>
-                    </div> */}
-                    <div className="app">
                         <a href="https://jonny-on-it-collab.herokuapp.com/" className="app-link">
                             <h3>Jonny On It</h3>
                             <img src="https://i.imgur.com/2dANYg5.png" alt="jonnyonit app" />
@@ -115,6 +95,15 @@ class WhatIDo extends Component {
                         </a>
                         <a href="https://github.com/chuckderosier/jonny_on_it_collab.git" className="app-link">gitHub repo link</a>
                     </div>
+                    <div className="app">
+                        <a href="https://happy-camper-by-chuck.herokuapp.com/" className="app-link">
+                            <h3>Happy Camper</h3>
+                            <img src="https://i.imgur.com/4sUgKV4.png?1" alt="happy camper app" />
+                            <p>MongoDB, Express, React, Node.js</p>
+                            <p>At this moment I am trying to resolve why the heroku app doe not update</p>
+                        </a>
+                        <a href="https://github.com/chuckderosier/Happy-Camper.git" className="app-link">gitHub repo link</a>
+                    </div>
                 </div>
                 <div className="app-container">
                     <div className="examples">
@@ -122,6 +111,11 @@ class WhatIDo extends Component {
                     </div>
                     <div className="examples">
                         <Link to="graphic" className="app-link">GRAPHIC EXAMPLES</Link>
+                    </div>
+                </div>
+                <div className="app-container">
+                    <div className="examples">
+                        <Link to="mixed" className="app-link">MIXED SMALL APPS</Link>
                     </div>
                 </div>
             </WhatIDoStyle>

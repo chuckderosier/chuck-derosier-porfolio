@@ -68,6 +68,8 @@ class HomePage extends Component {
                                 <h3>Python</h3>
                                 <h3>Express</h3>
                                 <h3>Node.js</h3>
+                                <h3>Git/Github</h3>
+                                <h3>SEO basics</h3>
                             </Link>
                         </div>
                         <div className="panels">
