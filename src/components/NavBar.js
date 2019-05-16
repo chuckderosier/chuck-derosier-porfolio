@@ -35,6 +35,23 @@ const NavBarStyle = styled.div`
     p {
         margin: .3em auto;
     }
+    @media (max-width: 800px) {
+        h1 {
+            font-size: .2em;
+            color: pink
+        }
+        h3 {
+            font-size: .8em;
+        }
+    }
+    @media (max-width: 509px) {
+        h1 {
+            font-size: 1.2em;
+        }
+        h3 {
+            font-size: .7em;
+        }
+    }
 `
 
 class NavBar extends Component {
@@ -59,7 +76,7 @@ class NavBar extends Component {
                     </div>
                 </div>
                 <div>
-                    <p>Email: chuck.derosier2018@gmail.com  *  LinkedIn: www.linkedin.com/in/charles-derosier  *  GitHub: https://github.com/chuckderosier</p>
+                    <p>Email: chuck.derosier2018@gmail.com  *  <a href="www.linkedin.com/in/charles-derosier">LinkedIn</a>  *  <a href="https://github.com/chuckderosier">Github</a></p>
                 </div>
             </NavBarStyle>
         )

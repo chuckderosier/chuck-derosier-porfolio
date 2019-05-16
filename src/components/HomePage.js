@@ -25,6 +25,12 @@ const HomePageStyle = styled.div`
         width: 80vw;
     }
     }
+    @media (max-width: 509px) {
+        background-size: 500px;
+        p {
+            font-size: .7em;
+        }
+    }
 `
 
 const PanelStyle = styled.div`
