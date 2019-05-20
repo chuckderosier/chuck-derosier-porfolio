@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const NavBarStyle = styled.div`
     width: 100vw;
-    background-color: rgba(255,200,0,1);
+    background-color: rgba(255,220,50,1);
     padding: .3em;
     display: flex;
     flex-direction: column;
@@ -18,7 +18,7 @@ const NavBarStyle = styled.div`
         text-align: center;
         text-decoration: none;
         h1, h3 {
-            color: rgba(255,255,100,1);
+            color: rgba(255,220,50,1);
             background-color: rgba(75,0,75,1);
             margin: .3em 1em 0 1em;
             padding: .1em .5em;
@@ -34,6 +34,10 @@ const NavBarStyle = styled.div`
     }
     p {
         margin: .3em auto;
+    }
+    a {
+        color: rgba(75,0,75,1);
+        text-decoration: none;
     }
     @media (max-width: 800px) {
         h1 {

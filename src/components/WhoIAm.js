@@ -17,12 +17,12 @@ const WhoIAmStyle = styled.div`
         align-items: center;
     }
     h1 {
-        color: rgba(255,200,0,1);
+        color: rgba(255,220,50,1);
         font-size: 2.4em;
         margin: .4em auto 0 auto;
     }
     p {
-        color: rgba(255,200,0,1);
+        color: rgba(255,220,50,1);
         font-size: 1em;
         margin: .2em auto 1em auto;
     }
@@ -35,7 +35,7 @@ const WhoIAmStyle = styled.div`
         display: flex;
     }
     .hobby-link {
-        color: rgba(255,200,0,1);
+        color: rgba(255,220,50,1);
         font-size: 1.5em;
         text-decoration: none;
         text-shadow: 0 0 10px rgba(0,0,0,1), 0 0 10px rgba(0,0,0,1), 0 0 10px rgba(0,0,0,1);

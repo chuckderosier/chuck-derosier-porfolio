@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 const CampStyle = styled.div`
     background-color: rgba(40,0,40,1);
-    color: rgba(255,255,0,1);
+    color: rgba(255,220,50,1);
     font-size: 1.2em;
     text-align: center;
     width: 100vw;

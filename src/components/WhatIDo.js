@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { Link } from "react-router-dom"
 
 const WhatIDoStyle = styled.div`
-    color: rgba(255,255,100,1);
+    color: rgba(255,220,50,1);
     width: 100vw;
     background-color: rgba(40,0,40,1);
     display: flex;
@@ -15,12 +15,10 @@ const WhatIDoStyle = styled.div`
         justify-content: space-around;
     }
     h1 {
-        color: rgba(255,200,0,1);
         font-size: 2.4em;
         margin: .4em auto 0 auto;
     }
     p {
-        color: rgba(255,200,0,1);
         font-size: 1em;
         margin: .2em auto 1em auto;
     }
@@ -46,12 +44,14 @@ const WhatIDoStyle = styled.div`
                 margin: .2em;
             }
         }
-        p{
+        p {
+            font-size: .7em;
             margin: .4em;
         }
     }
     .app-link {
-        color: rgba(255,255,100,1);
+        font-size: 1.4em;
+        color: rgba(255,220,50,1);
         text-align: center;
         text-decoration: none;
         display: flex;
@@ -59,23 +59,12 @@ const WhatIDoStyle = styled.div`
         align-items: center;
     }
     a {
-        /* padding: 0 0 .5em 0; */
+        font-size: .6em;
         display: flex;
         flex-direction: column;
     }
     img {
         width: 35vw;
-    }
-    .examples {
-        background-color: rgba(255,255,255,.1);
-        text-decoration: none;
-        width: 40vw;
-        margin: 0 1em;
-        padding: .5em;
-        border-radius: 2em;
-        .app-link {
-            font-size: 1.5em;
-        }
     }
 `
 
@@ -106,15 +95,15 @@ class WhatIDo extends Component {
                     </div>
                 </div>
                 <div className="app-container">
-                    <div className="examples">
+                    <div className="app">
                         <Link to="photoshop" className="app-link">PHOTOSHOP EXAMPLES</Link>
                     </div>
-                    <div className="examples">
+                    <div className="app">
                         <Link to="graphic" className="app-link">GRAPHIC EXAMPLES</Link>
                     </div>
                 </div>
                 <div className="app-container">
-                    <div className="examples">
+                    <div className="app">
                         <Link to="mixed" className="app-link">MIXED SMALL APPS</Link>
                     </div>
                 </div>

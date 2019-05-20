@@ -4,7 +4,7 @@ import styled from 'styled-components'
 const BookStyle = styled.div`
     text-align: center;
     background-color: rgba(40,0,40,1);
-    color: rgba(255,255,0,1);
+    color: rgba(255,220,50,1);
     display: flex;
     flex-direction: column;
     align-items: center;
