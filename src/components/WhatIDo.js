@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
-import { Link } from "react-router-dom"
+import { Link } from 'react-router-dom'
 
 const WhatIDoStyle = styled.div`
     color: rgba(255,220,50,1);
@@ -34,15 +34,6 @@ const WhatIDoStyle = styled.div`
         h2 {
             text-align: center;
             margin: 0 auto;
-        }
-        ul {
-            list-style-type: none;
-            text-align: center;
-            font-size: 1.6em;
-            margin: 0 auto;
-            li {
-                margin: .2em;
-            }
         }
         p {
             font-size: .7em;
@@ -89,7 +80,7 @@ class WhatIDo extends Component {
                             <h3>Happy Camper</h3>
                             <img src="https://i.imgur.com/4sUgKV4.png?1" alt="happy camper app" />
                             <p>MongoDB, Express, React, Node.js</p>
-                            <p>At this moment I am trying to resolve why the heroku app doe not update</p>
+                            <p>This MERN stack allows users to save information on public campsites</p>
                         </a>
                         <a href="https://github.com/chuckderosier/Happy-Camper.git" className="app-link">gitHub repo link</a>
                     </div>
