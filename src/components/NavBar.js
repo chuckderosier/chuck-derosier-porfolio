@@ -80,7 +80,7 @@ class NavBar extends Component {
                     </div>
                 </div>
                 <div>
-                    <p>Email: chuck.derosier2018@gmail.com  *  <a href="www.linkedin.com/in/charles-derosier">LinkedIn</a>  *  <a href="https://github.com/chuckderosier">Github</a></p>
+                    <p>Email: chuck.derosier2018@gmail.com  *  <a href="https://www.linkedin.com/in/charles-derosier">LinkedIn</a>  *  <a href="https://github.com/chuckderosier">Github</a></p>
                 </div>
             </NavBarStyle>
         )
