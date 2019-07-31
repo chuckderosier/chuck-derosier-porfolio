@@ -39,21 +39,20 @@ const NavBarStyle = styled.div`
         color: rgba(75,0,75,1);
         text-decoration: none;
     }
-    @media (max-width: 800px) {
-        h1 {
-            font-size: .2em;
-            color: pink
-        }
-        h3 {
-            font-size: .8em;
+    @media screen and (max-width: 812px) {
+        .link {
+            font-size: .7em;
         }
     }
-    @media (max-width: 509px) {
-        h1 {
-            font-size: 1.2em;
+    @media screen and (max-width: 570px) {
+        .link {
+            font-size: .5em;
         }
-        h3 {
-            font-size: .7em;
+    }
+    @media screen and (max-width: 320px) {
+        .link 
+        {
+            font-size: .4em;
         }
     }
 `
