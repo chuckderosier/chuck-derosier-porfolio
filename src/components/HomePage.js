@@ -26,9 +26,6 @@ const HomePageStyle = styled.div`
     }
     }
     @media screen and (max-width: 812px) {
-        .link {
-            font-size: .7em;
-        }
         background-size: 100vw;
     }
     @media screen and (max-width: 570px) {

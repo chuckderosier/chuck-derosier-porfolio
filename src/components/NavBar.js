@@ -39,7 +39,13 @@ const NavBarStyle = styled.div`
         color: rgba(75,0,75,1);
         text-decoration: none;
     }
+    .contact-links {
+        text-align: center;
+    }
     @media screen and (max-width: 812px) {
+        .container {
+            width: 100vw;
+        }
         .link {
             font-size: .7em;
         }
@@ -54,6 +60,9 @@ const NavBarStyle = styled.div`
         {
             font-size: .4em;
         }
+        .contact-links {
+            font-size: .7em;
+        }
     }
 `
 
@@ -61,25 +70,28 @@ class NavBar extends Component {
     render() {
         return (
             <NavBarStyle>
-                <div className="button-container">
-                    <div>
-                        <Link to="/whatido" className="link">
-                            <h3>What I Do</h3>
-                        </Link>
+                <div className="container">
+                    <div className="button-container">
+                        <div>
+                            <Link to="/whatido" className="link">
+                                <h3>What I Do</h3>
+                            </Link>
+                        </div>
+                        <div>
+                            <Link to="/" className="link">
+                                <h1>Chuck DeRosier's Portfolio</h1>
+                            </Link>
+                        </div>
+                        <div>
+                            <Link to="/whoiam" className="link">
+                                <h3>Who I Am</h3>
+                            </Link>
+                        </div>
                     </div>
-                    <div>
-                        <Link to="/" className="link">
-                            <h1>Chuck DeRosier's Portfolio</h1>
-                        </Link>
+                    <div className="contact-links">
+                        <p>Email: chuck.derosier2018@gmail.com  <br></br>
+                            <a href="https://www.linkedin.com/in/charles-derosier">LinkedIn</a>  *  <a href="https://github.com/chuckderosier">Github</a></p>
                     </div>
-                    <div>
-                        <Link to="/whoiam" className="link">
-                            <h3>Who I Am</h3>
-                        </Link>
-                    </div>
-                </div>
-                <div className="contact-links">
-                    <p>Email: chuck.derosier2018@gmail.com  *  <a href="https://www.linkedin.com/in/charles-derosier">LinkedIn</a>  *  <a href="https://github.com/chuckderosier">Github</a></p>
                 </div>
             </NavBarStyle>
         )
