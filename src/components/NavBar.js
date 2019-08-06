@@ -78,7 +78,7 @@ class NavBar extends Component {
                         </Link>
                     </div>
                 </div>
-                <div>
+                <div className="contact-links">
                     <p>Email: chuck.derosier2018@gmail.com  *  <a href="https://www.linkedin.com/in/charles-derosier">LinkedIn</a>  *  <a href="https://github.com/chuckderosier">Github</a></p>
                 </div>
             </NavBarStyle>

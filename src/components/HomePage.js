@@ -14,7 +14,7 @@ const HomePageStyle = styled.div`
     flex-direction: column;
     align-items: center;
     .brand-statement {
-        background-color: rgba(255,255,255,.2);
+        background-color: rgba(255,255,255,.3);
         border-radius: 1.5em;
         margin: 1em auto;
         position: absolute;
@@ -25,11 +25,33 @@ const HomePageStyle = styled.div`
         width: 80vw;
     }
     }
-    @media (max-width: 509px) {
-        background-size: 500px;
-        p {
+    @media screen and (max-width: 812px) {
+        .link {
             font-size: .7em;
         }
+        background-size: 100vw;
+    }
+    @media screen and (max-width: 570px) {
+        .brand-statement {
+            font-size: .9em;
+        }
+        background-size: 100vw;
+    }
+    @media screen and (max-width: 375px) {
+        .brand-statement {
+            font-size: 1.2em;
+        }
+    }
+    @media screen and (max-width: 360px) {
+        .brand-statement {
+            font-size: 1em;
+        }
+    }
+    @media screen and (max-width: 320px) {
+        .brand-statement {
+            font-size: .9em;
+        }
+        background-size: 100vw;
     }
 `
 
