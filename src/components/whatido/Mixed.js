@@ -58,6 +58,9 @@ color: rgba(255,220,50,1);
         width: 35vw;
         max-height: 25vw;
     }
+    .shakespeare {
+        width: 30vw;
+    }
 `
 
 class MixedApps extends Component {
@@ -78,7 +81,7 @@ class MixedApps extends Component {
                     <div className="app">
                         <a href="https://shakespeare-insults.herokuapp.com/" className="app-link">
                             <h3>Random Shakespearean Insults</h3>
-                            <img src="https://i.imgur.com/7JBOfEX.png" alt="shakespeare portrait" />
+                            <img src="https://i.imgur.com/7JBOfEX.png" alt="shakespeare portrait" className="shakespeare" />
                             <p>React</p>
                             <p>This app randomly joins 2 adjectives and a noun to form a Shakespearean insult</p>
                         </a>

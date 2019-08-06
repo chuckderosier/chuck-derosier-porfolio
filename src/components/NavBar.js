@@ -44,8 +44,7 @@ const NavBarStyle = styled.div`
     }
     @media screen and (max-width: 812px) {
         .link {
-            font-size: .7em;
-            
+            font-size: .7em;  
         }
         h1, h3 {
             padding: .1em;

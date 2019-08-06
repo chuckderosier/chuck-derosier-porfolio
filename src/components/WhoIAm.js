@@ -86,6 +86,31 @@ const WhoIAmStyle = styled.div`
             align-items: center;
             justify-content: center;
     }
+    /* @media screen and (max-width: 812px) {
+        .hobby-link {
+            font-size: .7em;
+            width: .5em;
+            height: .5em; 
+        }
+        h1, h3 {
+            padding: .1em;
+            margin: 0;
+        }
+    }
+    @media screen and (max-width: 570px) {
+        .hobby-link {
+            font-size: .5em;
+        }
+    }
+    @media screen and (max-width: 320px) {
+        .hobby-link 
+        {
+            font-size: .4em;
+        }
+        .contact-links {
+            font-size: .7em;
+        }
+    } */
 `
 
 class WhoIAm extends Component {
