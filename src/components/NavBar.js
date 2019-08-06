@@ -43,11 +43,13 @@ const NavBarStyle = styled.div`
         text-align: center;
     }
     @media screen and (max-width: 812px) {
-        .container {
-            width: 100vw;
-        }
         .link {
             font-size: .7em;
+            
+        }
+        h1, h3 {
+            padding: .1em;
+            margin: 0;
         }
     }
     @media screen and (max-width: 570px) {

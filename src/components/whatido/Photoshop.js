@@ -26,19 +26,6 @@ const PhotoshopStyle = styled.div`
             font-size: 1em;
         }
     }
-    @media screen and (max-width: 570px) {
-        .brand-statement {
-            font-size: .9em;
-        }
-        background-size: 100vw;
-    }
-    @media screen and (max-width: 375px) {
-        .photoshop-examples {
-            img {
-                width: 100vw;
-            }
-        }
-    }
 `
 
 class Photoshop extends Component {
