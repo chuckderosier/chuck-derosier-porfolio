@@ -10,18 +10,16 @@ const WhoIAmStyle = styled.div`
     .who-i-am-container {
         margin: .5em;
         display: grid;
-        grid-template-columns: repeat(15, 1fr);
-        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
         grid-template-areas:
-        "camping camping camping . . . . . music music music . . . . "
-        "camping camping camping . gaming gaming gaming . music music music . books books books"
-        "camping camping camping . gaming gaming gaming . music music music . books books books"
-        ". . . gaming gaming gaming . . . books books books"
+        "camping . music ."
+        ". gaming . books"
     }
     h1 {
         color: rgba(255,220,50,1);
         font-size: 2.4em;
-        margin: .4em auto 0 auto;
+        margin: 0 auto;
     }
     p {
         color: rgba(255,220,50,1);
@@ -36,8 +34,8 @@ const WhoIAmStyle = styled.div`
     }
     .camping {
         grid-area: camping;
-        width: 10em;
-        height: 10em;
+        width: 15em;
+        height: 15em;
         background-image: url("https://i.imgur.com/AdmRMmL.png");
         background-position: center;
         background-size: contain;
@@ -48,8 +46,8 @@ const WhoIAmStyle = styled.div`
     }  
     .music {
         grid-area: music;
-        width: 10em;
-        height: 10em;
+        width: 15em;
+        height: 15em;
         background-image: url("https://i.imgur.com/tUShZLU.png");
         background-position: center;
         background-size: contain;
@@ -60,8 +58,8 @@ const WhoIAmStyle = styled.div`
     }
     .gaming {
         grid-area: gaming;
-        width: 10em;
-        height: 10em;
+        width: 15em;
+        height: 15em;
         background-image: url("https://i.imgur.com/42sWW02.png");
         background-position: center;
         background-size: contain;
@@ -71,8 +69,9 @@ const WhoIAmStyle = styled.div`
         justify-content: center;
     } 
     .books {
-        width: 10em;
-        height: 10em;
+        grid-area: books;
+        width: 15em;
+        height: 15em;
         background-image: url("https://i.imgur.com/Hmn2mJs.png");
         background-position: center;
         background-size: contain;
@@ -85,10 +84,6 @@ const WhoIAmStyle = styled.div`
         .hobby-link {
             font-size: 1em;
         }
-        h1, h3 {
-            padding: .1em;
-            margin: 0;
-        }
     }
     @media screen and (max-width: 570px) {
         .hobby-link {
@@ -100,9 +95,6 @@ const WhoIAmStyle = styled.div`
         {
             font-size: .4em;
         }
-        .contact-links {
-            font-size: .7em;
-        }
     }
 `
 
@@ -111,29 +103,28 @@ class WhoIAm extends Component {
         return (
             <WhoIAmStyle>
                 <h1>Who I Am</h1>
-                <p>This page bought to you by CSS Flex</p>
+                <p>This page bought to you by CSS Grid and Flex</p>
                 <div className="who-i-am-container">
-                    <Link to="/camping" className="hobby-link">
-                        <div className="camping">
+                    <div className="camping">
+                        <Link to="/camping" className="hobby-link">
                             <h2>Camping</h2>
-                        </div>
-                    </Link>
-
-                    <Link to="/gaming" className="hobby-link">
-                        <div className="gaming">
+                        </Link>
+                    </div>
+                    <div className="gaming">
+                        <Link to="/gaming" className="hobby-link">
                             <h2>Gaming</h2>
-                        </div>
-                    </Link>
-                    <Link to="/music" className="hobby-link">
-                        <div className="music">
+                        </Link>
+                    </div>
+                    <div className="music">
+                        <Link to="/music" className="hobby-link">
                             <h2>Music</h2>
-                        </div>
-                    </Link>
-                    <Link to="/books" className="hobby-link">
-                        <div className="books">
+                        </Link>
+                    </div>
+                    <div className="books">
+                        <Link to="/books" className="hobby-link">
                             <h2>Books</h2>
-                        </div>
-                    </Link>
+                        </Link>
+                    </div>
                 </div>
             </WhoIAmStyle>
         )
