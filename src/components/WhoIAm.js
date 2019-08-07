@@ -60,6 +60,7 @@ const WhoIAmStyle = styled.div`
         grid-area: gaming;
         width: 15em;
         height: 15em;
+        margin: -8em 0 0 0;
         background-image: url("https://i.imgur.com/42sWW02.png");
         background-position: center;
         background-size: contain;
@@ -72,6 +73,7 @@ const WhoIAmStyle = styled.div`
         grid-area: books;
         width: 15em;
         height: 15em;
+        margin: -8em 0 0 0;
         background-image: url("https://i.imgur.com/Hmn2mJs.png");
         background-position: center;
         background-size: contain;
