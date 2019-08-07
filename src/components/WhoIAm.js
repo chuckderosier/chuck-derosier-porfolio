@@ -6,15 +6,17 @@ const WhoIAmStyle = styled.div`
     width: 100vw;
     padding: 0 0 2em 0;
     background-color: rgba(40,0,40,1);
-    color: white;
     text-align: center;
-    display: flex;
-    flex-direction: column;
     .who-i-am-container {
         margin: .5em;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(15, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-areas:
+        "camping camping camping . . . . . music music music . . . . "
+        "camping camping camping . gaming gaming gaming . music music music . books books books"
+        "camping camping camping . gaming gaming gaming . music music music . books books books"
+        ". . . gaming gaming gaming . . . books books books"
     }
     h1 {
         color: rgba(255,220,50,1);
@@ -26,14 +28,6 @@ const WhoIAmStyle = styled.div`
         font-size: 1em;
         margin: .2em auto 1em auto;
     }
-    .top-hobbies {
-        margin: 0 0 0 -20em;
-        display: flex;
-    }
-    .bottom-hobbies {
-        margin: -1em -20em 0 0;
-        display: flex;
-    }
     .hobby-link {
         color: rgba(255,220,50,1);
         font-size: 1.5em;
@@ -41,56 +35,55 @@ const WhoIAmStyle = styled.div`
         text-shadow: 0 0 10px rgba(0,0,0,1), 0 0 10px rgba(0,0,0,1), 0 0 10px rgba(0,0,0,1);
     }
     .camping {
-            width: 10em;
-            height: 10em;
-            margin: 0 15em 0 0;
-            background-image: url("https://i.imgur.com/AdmRMmL.png");
-            background-position: center;
-            background-size: contain;
-            background-repeat: no-repeat;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+        grid-area: camping;
+        width: 10em;
+        height: 10em;
+        background-image: url("https://i.imgur.com/AdmRMmL.png");
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }  
     .music {
-            width: 10em;
-            height: 10em;
-            background-image: url("https://i.imgur.com/tUShZLU.png");
-            background-position: center;
-            background-size: contain;
-            background-repeat: no-repeat;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+        grid-area: music;
+        width: 10em;
+        height: 10em;
+        background-image: url("https://i.imgur.com/tUShZLU.png");
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .gaming {
-            width: 10em;
-            height: 10em;
-            background-image: url("https://i.imgur.com/42sWW02.png");
-            background-position: center;
-            background-size: contain;
-            background-repeat: no-repeat;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+        grid-area: gaming;
+        width: 10em;
+        height: 10em;
+        background-image: url("https://i.imgur.com/42sWW02.png");
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     } 
     .books {
-            width: 10em;
-            height: 10em;
-            margin: 0 0 0 15em;
-            background-image: url("https://i.imgur.com/Hmn2mJs.png");
-            background-position: center;
-            background-size: contain;
-            background-repeat: no-repeat;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+        width: 10em;
+        height: 10em;
+        background-image: url("https://i.imgur.com/Hmn2mJs.png");
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
-    /* @media screen and (max-width: 812px) {
+    @media screen and (max-width: 812px) {
         .hobby-link {
-            font-size: .7em;
-            width: .5em;
-            height: .5em; 
+            font-size: 1em;
         }
         h1, h3 {
             padding: .1em;
@@ -110,7 +103,7 @@ const WhoIAmStyle = styled.div`
         .contact-links {
             font-size: .7em;
         }
-    } */
+    }
 `
 
 class WhoIAm extends Component {
@@ -120,30 +113,27 @@ class WhoIAm extends Component {
                 <h1>Who I Am</h1>
                 <p>This page bought to you by CSS Flex</p>
                 <div className="who-i-am-container">
-                    <div className="top-hobbies">
-                        <Link to="/camping" className="hobby-link">
-                            <div className="camping">
-                                <h2>Camping</h2>
-                            </div>
-                        </Link>
-                        <Link to="/music" className="hobby-link">
-                            <div className="music">
-                                <h2>Music</h2>
-                            </div>
-                        </Link>
-                    </div>
-                    <div className="bottom-hobbies">
-                        <Link to="/gaming" className="hobby-link">
-                            <div className="gaming">
-                                <h2>Gaming</h2>
-                            </div>
-                        </Link>
-                        <Link to="/books" className="hobby-link">
-                            <div className="books">
-                                <h2>Books</h2>
-                            </div>
-                        </Link>
-                    </div>
+                    <Link to="/camping" className="hobby-link">
+                        <div className="camping">
+                            <h2>Camping</h2>
+                        </div>
+                    </Link>
+
+                    <Link to="/gaming" className="hobby-link">
+                        <div className="gaming">
+                            <h2>Gaming</h2>
+                        </div>
+                    </Link>
+                    <Link to="/music" className="hobby-link">
+                        <div className="music">
+                            <h2>Music</h2>
+                        </div>
+                    </Link>
+                    <Link to="/books" className="hobby-link">
+                        <div className="books">
+                            <h2>Books</h2>
+                        </div>
+                    </Link>
                 </div>
             </WhoIAmStyle>
         )
