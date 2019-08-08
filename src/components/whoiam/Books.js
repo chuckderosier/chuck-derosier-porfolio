@@ -27,6 +27,21 @@ const BookStyle = styled.div`
             margin: .2em;
         }
     }
+    @media screen and (max-width: 375px) {        
+        .book-header {
+            width: 90vw;
+            word-wrap: normal;
+        }
+        h4 {
+            word-wrap: normal;
+        }
+        h1 {
+            font-size: 1.8em;
+        }
+        h4 {
+            font-size: .9em;
+        }
+    }
 `
 
 class Books extends Component {

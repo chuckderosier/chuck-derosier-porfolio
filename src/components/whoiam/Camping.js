@@ -27,6 +27,16 @@ const CampStyle = styled.div`
         flex-direction: column;
         align-items: center;
     }
+    @media screen and (max-width: 812px) {
+        .photoshop-examples {
+            img {
+                width: 100vw;
+            }
+        }
+        h1 {
+            font-size: 1em;
+        }
+    }
 `
 
 class Camping extends Component {
