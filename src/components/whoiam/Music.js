@@ -38,6 +38,20 @@ const MusicStyle = styled.div`
     a {
         color: rgba(255,255,0,1);
     }
+    @media screen and (max-width: 375px) {        
+        .eachBand {
+            width: 40vw;
+        }
+        h4 {
+            word-wrap: normal;
+        }
+        h1 {
+            font-size: 1.8em;
+        }
+        h4 {
+            font-size: .9em;
+        }
+    }
 `
 
 class Music extends Component {
