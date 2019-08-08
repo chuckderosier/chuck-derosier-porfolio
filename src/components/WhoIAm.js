@@ -34,8 +34,8 @@ const WhoIAmStyle = styled.div`
     }
     .camping {
         grid-area: camping;
-        width: 15em;
-        height: 15em;
+        width: 14em;
+        height: 14em;
         background-image: url("https://i.imgur.com/AdmRMmL.png");
         background-position: center;
         background-size: contain;
@@ -46,8 +46,8 @@ const WhoIAmStyle = styled.div`
     }  
     .music {
         grid-area: music;
-        width: 15em;
-        height: 15em;
+        width: 14em;
+        height: 14em;
         background-image: url("https://i.imgur.com/tUShZLU.png");
         background-position: center;
         background-size: contain;
@@ -58,8 +58,8 @@ const WhoIAmStyle = styled.div`
     }
     .gaming {
         grid-area: gaming;
-        width: 15em;
-        height: 15em;
+        width: 14em;
+        height: 14em;
         margin: -8em 0 0 0;
         background-image: url("https://i.imgur.com/42sWW02.png");
         background-position: center;
@@ -71,8 +71,8 @@ const WhoIAmStyle = styled.div`
     } 
     .books {
         grid-area: books;
-        width: 15em;
-        height: 15em;
+        width: 14em;
+        height: 14em;
         margin: -8em 0 0 0;
         background-image: url("https://i.imgur.com/Hmn2mJs.png");
         background-position: center;
@@ -83,19 +83,128 @@ const WhoIAmStyle = styled.div`
         justify-content: center;
     }
     @media screen and (max-width: 812px) {
+        h1 {
+            font-size: 1.8em;
+        }
         .hobby-link {
             font-size: 1em;
         }
-    }
-    @media screen and (max-width: 570px) {
-        .hobby-link {
-            font-size: .5em;
+        .camping {
+            width: 10em;
+            height: 10em;
+        }
+        .music {
+            width: 10em;
+            height: 10em;
+        }
+        .gaming {
+            margin: -7em 0 0 0;
+            width: 10em;
+            height: 10em;
+        }
+        .books {
+            margin: -7em 0 0 0;
+            width: 10em;
+            height: 10em;
         }
     }
-    @media screen and (max-width: 320px) {
+    @media screen and (max-width: 640px) {
+        h1 {
+            font-size: 1.8em;
+        }
+        .hobby-link {
+            font-size: .6em;
+        }
+        .camping {
+            width: 9em;
+            height: 9em;
+        }
+        .music {
+            width: 9em;
+            height: 9em;
+        }
+        .gaming {
+            margin: -6em 0 0 0;
+            width: 9em;
+            height: 9em;
+        }
+        .books {
+            margin: -6em 0 0 0;
+            width: 9em;
+            height: 9em;
+        }
+    }
+    @media screen and (max-width: 568px) {
+        h1 {
+            font-size: 1.4em;
+        }
+        p {
+            font-size: .8em;
+        }
+        h2 {
+            font-size: 2.4em;
+        }
+        .camping {
+            width: 8em;
+            height: 8em;
+        }
+        .music {
+            width: 8em;
+            height: 8em;
+        }
+        .gaming {
+            margin: -6em 0 0 0;
+            width: 8em;
+            height: 8em;
+        }
+        .books {
+            margin: -6em 0 0 0;
+            width: 8em;
+            height: 8em;
+        }                       
+    }
+    @media screen and (max-width: 380px) {
+        .who-i-am-container {
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(4, 1fr);
+            grid-template-areas:
+            ". camping ."
+            ". gaming ."
+            ". music ."
+            ". books ."
+        }
         .hobby-link 
         {
             font-size: .4em;
+        }
+        h1 {
+            font-size: 1.8em;
+        }
+        p {
+            font-size: 1em;
+        }
+        .hobby-link {
+            font-size: 1em;
+        }
+        .camping {
+            width: 14em;
+            height: 14em;
+        }
+        .music {
+            width: 14em;
+            height: 14em;
+        }
+        .gaming {
+            margin: .5em auto;
+            width: 14em;
+            height: 14em;
+        }
+        .books {
+            margin: .5em auto;
+            width: 14em;
+            height: 14em;
         }
     }
 `
