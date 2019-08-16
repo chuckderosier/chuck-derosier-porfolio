@@ -18,6 +18,11 @@ const WhatIDoStyle = styled.div`
         font-size: 2.4em;
         margin: .4em auto 0 auto;
     }
+    h2 {
+        font-size: 1em;
+        margin: .4em auto .4em auto;
+        text-align: center;
+    }
     p {
         font-size: 1em;
         margin: .2em auto 1em auto;
@@ -49,6 +54,10 @@ const WhatIDoStyle = styled.div`
         flex-direction: column;
         align-items: center;
     }
+    .graphic-link {
+        text-align: center;
+        margin: auto;
+    }
     a {
         font-size: .6em;
         display: flex;
@@ -64,10 +73,11 @@ class WhatIDo extends Component {
         return (
             <WhatIDoStyle>
                 <h1>What I Do</h1>
+                <h2>HTML, CSS, JavaScript, React<br />Node.js, Express, MongoDB, Python, Django</h2>
                 <p>CSS on this page uses Flex</p>
                 <div className="app-container">
                     <div className="app">
-                        <a href="https://jonny-on-it-collab.herokuapp.com/" className="app-link">
+                        <a href="https://jonny-on-it-collab.herokuapp.com/" className="app-link" target="_blank">
                             <h3>Jonny On It</h3>
                             <img src="https://i.imgur.com/2dANYg5.png" alt="jonnyonit app" />
                             <p>Django, Python, React, Node.js</p>
@@ -76,7 +86,7 @@ class WhatIDo extends Component {
                         <a href="https://github.com/chuckderosier/jonny_on_it_collab.git" className="app-link">gitHub repo link</a>
                     </div>
                     <div className="app">
-                        <a href="https://happy-camper-by-chuck.herokuapp.com/" className="app-link">
+                        <a href="https://happy-camper-by-chuck.herokuapp.com/" className="app-link" target="_blank">
                             <h3>Happy Camper</h3>
                             <img src="https://i.imgur.com/4sUgKV4.png?1" alt="happy camper app" />
                             <p>MongoDB, Express, React, Node.js</p>
@@ -89,7 +99,7 @@ class WhatIDo extends Component {
                     <div className="app">
                         <Link to="photoshop" className="app-link">PHOTOSHOP EXAMPLES</Link>
                     </div>
-                    <div className="app">
+                    <div className="app graphic-link">
                         <Link to="graphic" className="app-link">GRAPHIC EXAMPLES</Link>
                     </div>
                 </div>

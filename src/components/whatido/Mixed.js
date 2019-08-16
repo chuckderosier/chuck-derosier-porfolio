@@ -69,7 +69,7 @@ class MixedApps extends Component {
                 <h1>Mixed Small Apps</h1>
                 <div className="app-container">
                     <div className="app">
-                        <a href="https://task-challenge-game.herokuapp.com/" className="app-link">
+                        <a href="https://task-challenge-game.herokuapp.com/" className="app-link" target="_blank">
                             <h3>Tasks & Challeneges Game</h3>
                             <img src="https://i.imgur.com/yRK2Wtu.png" alt="tasks and challenges game" />
                             <p>HTML, CSS, jQuery</p>
@@ -78,7 +78,7 @@ class MixedApps extends Component {
                         <a href="https://github.com/chuckderosier/Tasks_Challenges_boardGame" className="app-link">gitHub repo link</a>
                     </div>
                     <div className="app">
-                        <a href="https://shakespeare-insults.herokuapp.com/" className="app-link">
+                        <a href="https://shakespeare-insults.herokuapp.com/" className="app-link" target="_blank">
                             <h3>Random Shakespearean Insults</h3>
                             <img src="https://i.imgur.com/7JBOfEX.png" alt="shakespeare portrait" className="shakespeare" />
                             <p>React</p>
