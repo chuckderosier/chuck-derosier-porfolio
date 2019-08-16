@@ -70,56 +70,56 @@ class Music extends Component {
                             <h4>The Forty Fives</h4>
                             <p>Basic Rock</p>
                             <p>Rarely play anymore</p>
-                            <a href="https://www.youtube.com/watch?v=O1P0AzFJJpQ">My Kind Of Girl</a>
-                            <a href="https://www.youtube.com/watch?v=-FDkXFdY2_w">Now Dig This!</a>
-                            <a href="https://www.youtube.com/watch?v=S9Wwh7FaPWU">Superpill</a>
+                            <a href="https://www.youtube.com/watch?v=O1P0AzFJJpQ" target="_blank">My Kind Of Girl</a>
+                            <a href="https://www.youtube.com/watch?v=-FDkXFdY2_w" target="_blank">Now Dig This!</a>
+                            <a href="https://www.youtube.com/watch?v=S9Wwh7FaPWU" target="_blank">Superpill</a>
                         </div>
                         <div className="eachBand">
                             <h4>Ruby Velle and the Soulphonics</h4>
                             <p>Rhythm and Blues - Funk</p>
                             <p>Active Band</p>
-                            <a href="https://www.youtube.com/watch?v=ktuI9oLakc4">Its About Time</a>
-                            <a href="https://www.youtube.com/watch?v=F9-JvdNNP-A">My Dear</a>
-                            <a href="https://www.youtube.com/watch?v=Q_k-1P1az4c">Longview</a>
+                            <a href="https://www.youtube.com/watch?v=ktuI9oLakc4" target="_blank">Its About Time</a>
+                            <a href="https://www.youtube.com/watch?v=F9-JvdNNP-A" target="_blank">My Dear</a>
+                            <a href="https://www.youtube.com/watch?v=Q_k-1P1az4c" target="_blank">Longview</a>
                         </div>
                         <div className="eachBand">
                             <h4>The Coathangers</h4>
                             <p>Punk Rock</p>
                             <p>Active Band</p>
-                            <a href="https://www.youtube.com/watch?v=vra8xU8rkuE">Sicker</a>
-                            <a href="https://www.youtube.com/watch?v=KLoKWvUwyjM">Watch Your Back</a>
-                            <a href="https://www.youtube.com/watch?v=fx7UDfiNqg4">Down Down</a>
+                            <a href="https://www.youtube.com/watch?v=vra8xU8rkuE" target="_blank">Sicker</a>
+                            <a href="https://www.youtube.com/watch?v=KLoKWvUwyjM" target="_blank">Watch Your Back</a>
+                            <a href="https://www.youtube.com/watch?v=fx7UDfiNqg4" target="_blank">Down Down</a>
                         </div>
                         <div className="eachBand">
                             <h4>Johnny Knox and The Hi Test</h4>
                             <p>Rockabilly</p>
                             <p>No longer playing</p>
-                            <a href="https://www.youtube.com/watch?v=SAVhiwSZk2w">Check This Action</a>
-                            <a href="https://www.youtube.com/watch?v=mW6Hha5rU_0">Swingin' Hula Girl</a>
+                            <a href="https://www.youtube.com/watch?v=SAVhiwSZk2w" target="_blank">Check This Action</a>
+                            <a href="https://www.youtube.com/watch?v=mW6Hha5rU_0" target="_blank">Swingin' Hula Girl</a>
                         </div>
                         <div className="eachBand">
                             <h4>Robustos</h4>
                             <p>Ska</p>
                             <p>Rare reunions</p>
-                            <a href="https://www.youtube.com/watch?v=0iQSekD0Au0">Ain't No Strangers Here</a>
-                            <a href="https://www.youtube.com/watch?v=7Bu9d7TIDP4&list=PL7AFFzii202pbP4Re5fMIWfJxQFfXMtIW">My Heart and Soul</a>
-                            <a href="https://www.youtube.com/watch?v=b0yrw8mYmz4&index=8&list=PL7AFFzii202pbP4Re5fMIWfJxQFfXMtIW">The Train Song</a>
+                            <a href="https://www.youtube.com/watch?v=0iQSekD0Au0" target="_blank">Ain't No Strangers Here</a>
+                            <a href="https://www.youtube.com/watch?v=7Bu9d7TIDP4&list=PL7AFFzii202pbP4Re5fMIWfJxQFfXMtIW" target="_blank">My Heart and Soul</a>
+                            <a href="https://www.youtube.com/watch?v=b0yrw8mYmz4&index=8&list=PL7AFFzii202pbP4Re5fMIWfJxQFfXMtIW" target="_blank">The Train Song</a>
                         </div>
                         <div className="eachBand">
                             <h4>The Woggles</h4>
                             <p>Mod Rock</p>
                             <p>Rarely play any more</p>
-                            <a href="https://www.youtube.com/watch?v=uVYogEaF9CU">It's Not About What I Want</a>
-                            <a href="https://www.youtube.com/watch?v=yLkIGKFQJkk">Waiting For The Rain</a>
-                            <a href="https://www.youtube.com/watch?v=HXM0D3hnUv4">Ragged But Right</a>
+                            <a href="https://www.youtube.com/watch?v=uVYogEaF9CU" target="_blank">It's Not About What I Want</a>
+                            <a href="https://www.youtube.com/watch?v=yLkIGKFQJkk" target="_blank">Waiting For The Rain</a>
+                            <a href="https://www.youtube.com/watch?v=HXM0D3hnUv4" target="_blank">Ragged But Right</a>
                         </div>
                         <div className="eachBand">
                             <h4>The Subsonics</h4>
                             <p>Rock (Velvet Underground)</p>
                             <p>Play occasionally</p>
-                            <a href="https://www.youtube.com/watch?v=F-MTDNIs-VE">Frankenstein</a>
-                            <a href="https://www.youtube.com/watch?v=AzpB-D1f-dc">You Got Eyes</a>
-                            <a href="https://www.youtube.com/watch?v=MstS11V1Suk">Queen For A Day</a>
+                            <a href="https://www.youtube.com/watch?v=F-MTDNIs-VE" target="_blank">Frankenstein</a>
+                            <a href="https://www.youtube.com/watch?v=AzpB-D1f-dc" target="_blank">You Got Eyes</a>
+                            <a href="https://www.youtube.com/watch?v=MstS11V1Suk" target="_blank">Queen For A Day</a>
                         </div>
                     </div>
                     <div className="other">
@@ -128,57 +128,57 @@ class Music extends Component {
                             <h4>Hawkwind</h4>
                             <p>Psychedelic Rock</p>
                             <p>Active in Europe</p>
-                            <a href="https://www.youtube.com/watch?v=L4vQ-eYgIy0">Motorhead</a>
-                            <a href="https://www.youtube.com/watch?v=g0att2_Zc1A">Brainstorm</a>
-                            <a href="https://www.youtube.com/watch?v=AVZ_kzjqr6o">Have You Seen Them</a>
+                            <a href="https://www.youtube.com/watch?v=L4vQ-eYgIy0" target="_blank">Motorhead</a>
+                            <a href="https://www.youtube.com/watch?v=g0att2_Zc1A" target="_blank">Brainstorm</a>
+                            <a href="https://www.youtube.com/watch?v=AVZ_kzjqr6o" target="_blank">Have You Seen Them</a>
                         </div>
                         <div className="eachBand">
                             <h4>Betty Davis</h4>
                             <p>Funk</p>
                             <p>No longer playing</p>
-                            <a href="https://www.youtube.com/watch?v=Ps08t5SVlE4">Nasty Gal</a>
-                            <a href="https://www.youtube.com/watch?v=sInAW1Jgtaw">This Is It</a>
-                            <a href="https://www.youtube.com/watch?v=EKWPynScqgw">They Say I'm Different</a>
+                            <a href="https://www.youtube.com/watch?v=Ps08t5SVlE4" target="_blank">Nasty Gal</a>
+                            <a href="https://www.youtube.com/watch?v=sInAW1Jgtaw" target="_blank">This Is It</a>
+                            <a href="https://www.youtube.com/watch?v=EKWPynScqgw" target="_blank">They Say I'm Different</a>
                         </div>
                         <div className="eachBand">
                             <h4>Infectious Grooves</h4>
                             <p>Funk Metal</p>
                             <p>No longer playing</p>
-                            <a href="https://www.youtube.com/watch?v=Ob3buKk6ALc">Punk It Up</a>
-                            <a href="https://www.youtube.com/watch?v=h4eqC3DX_oE">Therapy</a>
-                            <a href="https://www.youtube.com/watch?v=suKtuoJyzaA">Infectious Grooves</a>
+                            <a href="https://www.youtube.com/watch?v=Ob3buKk6ALc" target="_blank">Punk It Up</a>
+                            <a href="https://www.youtube.com/watch?v=h4eqC3DX_oE" target="_blank">Therapy</a>
+                            <a href="https://www.youtube.com/watch?v=suKtuoJyzaA" target="_blank">Infectious Grooves</a>
                         </div>
                         <div className="eachBand">
                             <h4>Wishbone Ash</h4>
                             <p>Progressive Rock</p>
                             <p>No longer playing</p>
-                            <a href="https://www.youtube.com/watch?v=QkvcM0JadEY">The King Will Come</a>
-                            <a href="https://www.youtube.com/watch?v=mUolWNHxRiM">Blowing Free</a>
-                            <a href="https://www.youtube.com/watch?v=U5X_Dd_6Czk">Warrior</a>
+                            <a href="https://www.youtube.com/watch?v=QkvcM0JadEY" target="_blank">The King Will Come</a>
+                            <a href="https://www.youtube.com/watch?v=mUolWNHxRiM" target="_blank">Blowing Free</a>
+                            <a href="https://www.youtube.com/watch?v=U5X_Dd_6Czk" target="_blank">Warrior</a>
                         </div>
                         <div className="eachBand">
                             <h4>Nudeswirl</h4>
                             <p>Grunge</p>
                             <p>No longer playing</p>
-                            <a href="https://www.youtube.com/watch?v=HRIfPsfWxMA">Buffalo</a>
-                            <a href="https://www.youtube.com/watch?v=_Q0DOWZRksI">F Sharp</a>
-                            <a href="https://www.youtube.com/watch?v=EnDw6G9WW5E">Gordon's Corner</a>
+                            <a href="https://www.youtube.com/watch?v=HRIfPsfWxMA" target="_blank">Buffalo</a>
+                            <a href="https://www.youtube.com/watch?v=_Q0DOWZRksI" target="_blank">F Sharp</a>
+                            <a href="https://www.youtube.com/watch?v=EnDw6G9WW5E" target="_blank">Gordon's Corner</a>
                         </div>
                         <div className="eachBand">
                             <h4>Wand Jackson</h4>
                             <p>Rockabilly</p>
                             <p>Still touring at age 81, retired recently</p>
-                            <a href="https://www.youtube.com/watch?v=pzJ3hiqsi0U">Hard Headed Woman</a>
-                            <a href="https://www.youtube.com/watch?v=ip_rNAASt6I">Let's Have A Party</a>
-                            <a href="https://www.youtube.com/watch?v=ztFHvNwRb6Q">Fujiyama Mama</a>
+                            <a href="https://www.youtube.com/watch?v=pzJ3hiqsi0U" target="_blank">Hard Headed Woman</a>
+                            <a href="https://www.youtube.com/watch?v=ip_rNAASt6I" target="_blank">Let's Have A Party</a>
+                            <a href="https://www.youtube.com/watch?v=ztFHvNwRb6Q" target="_blank">Fujiyama Mama</a>
                         </div>
                         <div className="eachBand">
                             <h4>Bim Skala Bim</h4>
                             <p>Ska</p>
                             <p>No longer playing</p>
-                            <a href="https://www.youtube.com/watch?v=0QvAdtT-Ang">Brain Damage</a>
-                            <a href="https://www.youtube.com/watch?v=_8ThqGZ4Uec">Chief Inspector</a>
-                            <a href="https://www.youtube.com/watch?v=wkcdtqs--MM">Run Joe</a>
+                            <a href="https://www.youtube.com/watch?v=0QvAdtT-Ang" target="_blank">Brain Damage</a>
+                            <a href="https://www.youtube.com/watch?v=_8ThqGZ4Uec" target="_blank">Chief Inspector</a>
+                            <a href="https://www.youtube.com/watch?v=wkcdtqs--MM" target="_blank">Run Joe</a>
                         </div>
                     </div>
                 </div>
