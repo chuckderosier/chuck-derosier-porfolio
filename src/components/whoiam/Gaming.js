@@ -23,6 +23,13 @@ const GamingStyle = styled.div`
         color: rgba(255,255,255,1);
         margin: 0 0 3em 0;
     }
+    .pangenre-link {
+        font-size: .8em;
+        margin: 0 auto .8em auto;
+        h3 {
+            margin: 0 auto;
+        }
+    }
 `
 
 class Gaming extends Component {
@@ -42,9 +49,9 @@ class Gaming extends Component {
                     <img src="https://i.imgur.com/pRCCGt3.jpg" alt="pangenre core rules" />
                     <p>No classes. No levels. No hit points.The Pangenre RPG System is a multi-genre RPG system focused on giving GMs a rule set that is based on ability and skill. The rules are designed to feel more realistic than other systems while still allowing for easy integration of supernatural components. The rules are campaign-neutral, and can be used in place of other game systems. The 2nd Edition core volumes will ultimately include the Core Rules (Released), Equipment Guide (in BETA), and Magic Guide.</p>
                 </div>
-                <div>
+                <div className="pangenre-link">
                     <h3>For more information on these games and links to purchase click link below:</h3>
-                    <a href="https://www.pangenre.com/">Pangenre, LLC</a>
+                    <a href="https://www.pangenre.com/" target="_blank">Pangenre, LLC</a>
                 </div>
             </GamingStyle>
         )

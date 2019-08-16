@@ -167,7 +167,7 @@ class Music extends Component {
                         <div className="eachBand">
                             <h4>Wand Jackson</h4>
                             <p>Rockabilly</p>
-                            <p>81 and still touring</p>
+                            <p>Still touring at age 81, retired recently</p>
                             <a href="https://www.youtube.com/watch?v=pzJ3hiqsi0U">Hard Headed Woman</a>
                             <a href="https://www.youtube.com/watch?v=ip_rNAASt6I">Let's Have A Party</a>
                             <a href="https://www.youtube.com/watch?v=ztFHvNwRb6Q">Fujiyama Mama</a>
