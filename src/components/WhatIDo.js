@@ -73,7 +73,7 @@ class WhatIDo extends Component {
         return (
             <WhatIDoStyle>
                 <h1>What I Do</h1>
-                <h2>HTML, CSS, JavaScript, React<br />Node.js, Express, MongoDB, Python, Django</h2>
+                <h2>React, HTML, CSS, JavaScript, jQuery<br />Node.js, Express, MongoDB, Python, Django<br/>Git, GitHub, Photoshop, Illustrator</h2>
                 <p>CSS on this page uses Flex</p>
                 <div className="app-container">
                     <div className="app">
@@ -83,7 +83,7 @@ class WhatIDo extends Component {
                             <p>Django, Python, React, Node.js</p>
                             <p>This project was created by a 4 person coding team. See README on gitHub for the names of the other coders</p>
                         </a>
-                        <a href="https://github.com/chuckderosier/jonny_on_it_collab.git" className="app-link">gitHub repo link</a>
+                        <a href="https://github.com/chuckderosier/jonny_on_it_collab.git" className="app-link" target="_blank">gitHub repo link</a>
                     </div>
                     <div className="app">
                         <a href="https://happy-camper-by-chuck.herokuapp.com/" className="app-link" target="_blank">
@@ -92,7 +92,7 @@ class WhatIDo extends Component {
                             <p>MongoDB, Express, React, Node.js</p>
                             <p>This MERN stack allows users to save information on public campsites</p>
                         </a>
-                        <a href="https://github.com/chuckderosier/Happy-Camper.git" className="app-link">gitHub repo link</a>
+                        <a href="https://github.com/chuckderosier/Happy-Camper.git" className="app-link" target="_blank">gitHub repo link</a>
                     </div>
                 </div>
                 <div className="app-container">

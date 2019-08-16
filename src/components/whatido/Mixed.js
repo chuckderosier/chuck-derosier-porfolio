@@ -75,7 +75,7 @@ class MixedApps extends Component {
                             <p>HTML, CSS, jQuery</p>
                             <p>This game is based on a game created by Fred Noble and I hope some day to find time to flesh it out to match his version.</p>
                         </a>
-                        <a href="https://github.com/chuckderosier/Tasks_Challenges_boardGame" className="app-link">gitHub repo link</a>
+                        <a href="https://github.com/chuckderosier/Tasks_Challenges_boardGame" className="app-link" target="_blank">gitHub repo link</a>
                     </div>
                     <div className="app">
                         <a href="https://shakespeare-insults.herokuapp.com/" className="app-link" target="_blank">
