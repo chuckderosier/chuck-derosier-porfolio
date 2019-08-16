@@ -84,7 +84,7 @@ class HomePage extends Component {
             <div>
                 <HomePageStyle>
                     <div className="brand-statement">
-                        <p>"I bring to my web development skill set 20 years of experience organizing complex data and ideas for clients, and based on their requirements, creatively resolve the materials, with a strong focus on details, into a meaningful, responsive, quality product. I enjoy exploring the range of possibilities in creating a new product and sharing these ideas with the client to help them best define their product."</p>
+                        <p>"I bring to my web development skill set over a decade of experience organizing complex data and ideas for clients, and based on their requirements, creatively resolve the materials, with a strong focus on details, into a meaningful, responsive, quality product. I enjoy exploring the range of possibilities in creating a new product and sharing these ideas with the client to help them best define their product."</p>
                     </div>
                     <PanelStyle>
                         <div className="panels">

@@ -27,6 +27,18 @@ const BookStyle = styled.div`
             margin: .2em;
         }
     }
+    @media screen and (max-width: 820px) {
+        .book-header {
+            width: 90vw;
+            word-wrap: normal;
+        }
+        h1 {
+            font-size: 1.8em;
+        }
+        h4 {
+            word-wrap: normal;
+        }
+    }
     @media screen and (max-width: 375px) {        
         .book-header {
             width: 90vw;
@@ -34,12 +46,10 @@ const BookStyle = styled.div`
         }
         h4 {
             word-wrap: normal;
+            font-size: .9em;
         }
         h1 {
             font-size: 1.8em;
-        }
-        h4 {
-            font-size: .9em;
         }
     }
 `
