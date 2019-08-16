@@ -25,28 +25,31 @@ const HomePageStyle = styled.div`
         width: 80vw;
     }
     }
-    @media screen and (max-width: 812px) {
+    @media only screen and (max-width: 812px) {
         background-size: 100vw;
+        .panel-content {
+            font-size: .8em;
+        }
     }
-    @media screen and (max-width: 570px) {
+    @media only screen and (max-width: 640px) {
         .brand-statement {
-            font-size: .9em;
+            font-size: .8em;
         }
         background-size: 100vw;
     }
-    @media screen and (max-width: 375px) {
-        .brand-statement {
-            font-size: 1.2em;
-        }
-    }
-    @media screen and (max-width: 360px) {
+    @media only screen and (max-width: 375px) {
         .brand-statement {
             font-size: 1em;
         }
     }
-    @media screen and (max-width: 320px) {
+    @media only screen and (max-width: 360px) {
         .brand-statement {
             font-size: .9em;
+        }
+    }
+    @media only screen and (max-width: 320px) {
+        .brand-statement {
+            font-size: .8em;
         }
         background-size: 100vw;
     }
